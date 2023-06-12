@@ -1,0 +1,77 @@
+
+.logo{
+    background: url("https://gsminfo.com.ua/wp-content/uploads/2022/03/kryptovalyuta.png") no-repeat center/cover;
+    /* background: rgb(45, 46, 47); */
+    width: 100%;
+}
+table{
+    background: rgba(6, 6, 6, 0.875);
+    /* background: rgb(45, 46, 47); */
+    box-shadow: 0px 0px 50px 0px black;
+}
+
+table, th, td {
+    width: 800px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    padding: 0px 0px 0px 20px;
+    margin: 0 auto;
+  }
+
+.cryptoImg{
+    width: 40px;
+    margin-right: 10px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.icon{
+    margin: 0 auto;
+    width: 250px;
+    box-shadow: 0px 0px 50px 0px black;
+}
+@media screen and (max-width: 1500px) {
+    table, th, td {
+        width: 700px;
+      }
+}
+@media screen and (max-width: 800px) {
+    table, th, td {
+        width: 500px;
+      }
+}
+@media screen and (max-width: 600px) {
+    table, th, td {
+        width: 90%;
+      }
+      table{
+        background: rgba(6, 6, 6, 0.792);
+        box-shadow: 0px 0px 50px 0px black;
+    }
+    .icon{
+        width: 250px;
+        box-shadow: 0px 0px 50px 0px black;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
